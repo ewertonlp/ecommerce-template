@@ -567,14 +567,18 @@ img {
     height: calc(80vh - 2rem);
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
   }
 
   .home_sneaker {
-    position: absolute;
+    /* position: relative; */
     display: block;
     justify-content: center;
     align-self: center;
+  }
+
+  .sneaker {
+    margin-bottom: 1rem;
   }
 
   .home__shape {
@@ -582,7 +586,7 @@ img {
     height: 200px;
     background-color: var(--dark-color);
     border-radius: 50%;
-    margin: 3rem 4rem;
+    margin: 4rem auto;
   }
 
   .home__img {
@@ -591,6 +595,12 @@ img {
     right: 2rem;
     width: 255px;
     transform: var(--rotate-img);
+  }
+
+  .feature__container {
+    display: block;
+    gap: 2rem;
+    margin: 1rem;
   }
 
   .collection__container {
@@ -611,6 +621,14 @@ img {
 
   .new__mens {
     align-items: center;
+  }
+
+  .footer__container {
+    display: block;
+    /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
+  }
+  .footer_box {
+    padding-bottom: var(--mb-4);
   }
 }
 
