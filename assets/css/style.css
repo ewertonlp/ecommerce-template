@@ -564,14 +564,14 @@ img {
   }
 
   .home__container {
-    height: calc(70vh - 2rem);
+    height: calc(80vh - 2rem);
     display: flex;
     flex-direction: column;
     width: 80%;
   }
 
   .home_sneaker {
-    position: relative;
+    position: absolute;
     display: block;
     justify-content: center;
     align-self: center;
@@ -582,13 +582,13 @@ img {
     height: 200px;
     background-color: var(--dark-color);
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 3rem 4rem;
   }
 
   .home__img {
-    position: absolute;
-    top: 2rem;
-    max-width: initial;
+    position: relative;
+    top: 1rem;
+    right: 2rem;
     width: 255px;
     transform: var(--rotate-img);
   }
